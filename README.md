@@ -3,6 +3,8 @@
 DeepSeek 鲸鱼 logo 剪影 —— [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（dsh）Web GUI 的全屏背景水印插件。
 纯视觉、`pointer-events: none` 完全不挡交互，亮色 / 夜间模式自动适配。
 
+![效果截图](assets/screenshot.jpg)
+
 DeepSeek whale-logo silhouette — a full-screen background watermark plugin for
 the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh)
 web GUI. Purely visual, `pointer-events: none`, auto-adapts to light / dark.
