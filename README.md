@@ -39,7 +39,7 @@ the dsh web GUI to see it.
 
 ```bash
 dsh plugin --profile web add /path/to/dsh-logo-silhouette
-dsh plugin --profile web add github:shangcunyu/dsh-logo-silhouette
+dsh plugin --profile web add github:kami-mura/dsh-logo-silhouette
 ```
 
 卸载 / Uninstall:
