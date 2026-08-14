@@ -1,0 +1,7 @@
+# dsh-logo-silhouette bundle patch: mount the whale-logo silhouette as the
+# web GUI's background layer (shell.overlay slot). The bundle shape is the
+# official dsh plugin form — install it with:
+#   dsh plugin --profile <name> add dsh-logo-silhouette
+- insert:
+    - id: logo-silhouette
+      name: dsh-logo-silhouette

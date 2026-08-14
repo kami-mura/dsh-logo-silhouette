@@ -1,0 +1,43 @@
+{
+  "name": "dsh-logo-silhouette",
+  "version": "0.1.0",
+  "description": "DeepSeek whale logo silhouette as a full-screen background watermark for the dsh web GUI — pointer-events-free, light/dark adaptive.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "assets",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "deepseek",
+    "plugin",
+    "logo",
+    "silhouette",
+    "whale",
+    "background",
+    "watermark",
+    "ui"
+  ],
+  "license": "MIT"
+}
