@@ -27,12 +27,12 @@ dsh plugin --profile web add dsh-logo-silhouette
 ```
 
 该包是标准的 dsh bundle（`dsh.bundle.patch`），`dsh plugin add` 会自动把它加入
-profile 的层栈（`dsh.profile.bundles`），无需手改任何配置文件。重启 / 刷新
-dsh web 后生效。
+profile 的层栈（`dsh.profile.bundles`），无需手改任何配置文件。安装后必须
+**重启 dsh web 服务**才会生效。
 
 `dsh plugin --profile web add dsh-logo-silhouette` installs the bundle into the
-profile layer stack automatically — no manual config edits. Restart / refresh
-the dsh web GUI to see it.
+profile layer stack automatically — no manual config edits. Restart the dsh web
+GUI to see it.
 
 从 GitHub 安装 / From git:
 
