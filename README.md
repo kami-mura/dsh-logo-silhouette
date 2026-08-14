@@ -23,7 +23,6 @@ web GUI. Purely visual, `pointer-events: none`, auto-adapts to light / dark.
 ## 安装 / Install
 
 ```bash
-# 任意 dsh profile（推荐 web）
 dsh plugin --profile web add dsh-logo-silhouette
 ```
 
@@ -35,10 +34,9 @@ dsh web 后生效。
 profile layer stack automatically — no manual config edits. Restart / refresh
 the dsh web GUI to see it.
 
-从本地或 git 安装 / From a local path or git:
+从 GitHub 安装 / From git:
 
 ```bash
-dsh plugin --profile web add /path/to/dsh-logo-silhouette
 dsh plugin --profile web add github:kami-mura/dsh-logo-silhouette
 ```
 
