@@ -1,6 +1,6 @@
 {
   "name": "dsh-logo-silhouette",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DeepSeek whale logo silhouette as a full-screen background watermark for the dsh web GUI — pointer-events-free, light/dark adaptive.",
   "type": "module",
   "main": "lib/index.js",
