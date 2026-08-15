@@ -9,6 +9,22 @@ DeepSeek whale-logo silhouette — a full-screen background watermark plugin for
 the [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (dsh)
 web GUI. Purely visual, `pointer-events: none`, auto-adapts to light / dark.
 
+## 安装 / Install
+
+```bash
+dsh plugin --profile web add dsh-logo-silhouette
+```
+
+安装后需**重启 dsh web 服务**生效。
+
+Restart the dsh web GUI to see it.
+
+## 卸载 / Uninstall
+
+```bash
+dsh plugin --profile web remove dsh-logo-silhouette
+```
+
 ## 效果 / Effects
 
 - 固定铺满视口的背景层（`z-index: 0`，不挡点击、不挡滚动）
@@ -22,30 +38,18 @@ web GUI. Purely visual, `pointer-events: none`, auto-adapts to light / dark.
   - 窄屏自动缩小并修正定位（`left`/`bottom`）
   - 尊重 `prefers-reduced-motion`，系统暗色 `prefers-color-scheme` 兜底
 
-## 安装 / Install
-
-```bash
-dsh plugin --profile web add dsh-logo-silhouette
-```
+## 安装说明 / Install notes
 
 该包是标准的 dsh bundle（`dsh.bundle.patch`），`dsh plugin add` 会自动把它加入
-profile 的层栈（`dsh.profile.bundles`），无需手改任何配置文件。安装后必须
-**重启 dsh web 服务**才会生效。
+profile 的层栈（`dsh.profile.bundles`），无需手改任何配置文件。
 
 `dsh plugin --profile web add dsh-logo-silhouette` installs the bundle into the
-profile layer stack automatically — no manual config edits. Restart the dsh web
-GUI to see it.
+profile layer stack automatically — no manual config edits.
 
 从 GitHub 安装 / From git:
 
 ```bash
 dsh plugin --profile web add github:kami-mura/dsh-logo-silhouette
-```
-
-卸载 / Uninstall:
-
-```bash
-dsh plugin --profile web remove dsh-logo-silhouette
 ```
 
 ## 开发 / Develop
